@@ -20,6 +20,8 @@ list_of_files = [
     f'src/logger.py',
     f'src/exception.py',
     f'src/utils.py',
+    f'notebook/EDA.ipynb',
+    f'notebook/model_trainer.ipynb',
 ]
 
 for filepath in list_of_files:
