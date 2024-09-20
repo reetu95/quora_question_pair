@@ -9,7 +9,17 @@ project_name = "Quora"
 list_of_files = [
     "requirements.txt",
     "setup.py",
-    f'src/__init__.py'
+    f'src/__init__.py',
+    f'src/components/__init__.py',
+    f'src/components/data_ingestion.py',
+    f'src/components/data_transformation.py',
+    f'src/components/model_tariner.py',
+    f'src/pipeline/__init__.py',
+    f'src/pipeline/train_pipeline.py',
+    f'src/pipeline/predict_pipeline.py',
+    f'src/logger.py',
+    f'src/exception.py',
+    f'src/utils.py',
 ]
 
 for filepath in list_of_files:
